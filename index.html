@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NebulaOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-blobs" aria-hidden="true">
+    <span class="blob blob-purple"></span>
+    <span class="blob blob-blue"></span>
+    <span class="blob blob-brown"></span>
+    <span class="blob blob-small"></span>
+    </div>
+    
+    <header>
+    <div class="brand">
+        <img src="NebulaNLogo.png" alt="NebulaOS logo">
+        <span>NebulaOS</span>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/NebulaOS-Dev">GitHub</a>
+        <a class="nav-download" href="#download">Download</a>
+    </nav>
+</header>
+
+
+    <main>
+
+        <!-- Hero -->
+            <section class="main">
+        <h1>
+            An operating system<br>
+            for creators
+        </h1>
+
+        <p>
+            NebulaOS is designed for creators, developers, and enthusiasts.
+        </p>
+
+        <a href="#download">
+            <button>Download Now</button>
+        </a>
+
+        <div class="showcase hero-showcase">
+            <div class="showcase-placeholder">
+        <div class="placeholder-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="placeholder-content">
+            <h2>NebulaOS</h2>
+            <p>Desktop preview coming soon.</p>
+        </div>
+    </div>
+        </div>
+    </section>
+
+
+        <!-- Workflow -->
+        <section class="main">
+            <h1>
+                Meant to get your work done with ease
+            </h1>
+
+            <p>
+                With the benefits of KDE Plasma, a smooth and reliable desktop
+                experience, and based on Ubuntu, NebulaOS provides a simple
+                workflow for all your creative tasks.
+            </p>
+
+            <a href="#features">
+                <button>Know more</button>
+            </a>
+        </section>
+
+
+        <!-- Features -->
+        <section id="features" class="main">
+    <h1>What's included?</h1>
+
+    <p>
+        NebulaOS is built on software that already works, with a few
+        things added to make the experience feel like NebulaOS.
+    </p>
+
+    <div class="feature-table">
+
+        <div class="feature">
+            <img src="icons/kde.svg" alt="KDE Plasma logo">
+
+            <div>
+                <h2>KDE Plasma</h2>
+                <p>
+                    A familiar and highly customizable desktop environment
+                    that gets out of your way.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="icons/ubuntu.svg" alt="Ubuntu logo">
+
+            <div>
+                <h2>Ubuntu underneath</h2>
+                <p>
+                    A well-supported Linux base with access to a huge
+                    ecosystem of software and packages.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJydXNoIHByZXZpZXctaWNvbiI+PHBhdGggZD0ibTExIDEwIDMgMyIvPjxwYXRoIGQ9Ik02LjUgMjFBMy41IDMuNSAwIDEgMCAzIDE3LjVhMi42MiAyLjYyIDAgMCAxLS43MDggMS43OTJBMSAxIDAgMCAwIDMgMjF6Ii8+PHBhdGggZD0iTTkuOTY5IDE3LjAzMSAyMS4zNzggNS42MjRhMSAxIDAgMCAwLTMuMDAyLTMuMDAyTDYuOTY3IDE0LjAzMSIvPjwvc3ZnPg==" alt="Creator tools icon">
+
+            <div>
+                <h2>Creator focused</h2>
+                <p>
+                    Useful software and sensible defaults for people
+                    who make things.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWdhbGF4eSBwcmV2aWV3LWljb24iPjxwYXRoIGQ9Ik0xNi4wMDUgMTUuMTA4YTUuMDQxIDYuNTIgMjguMjUgMDAtOC4wMDgtNi4yMTcgNS4wNDEgNi41MiAyOC4yNSAwMDguMDA4IDYuMjE3QTExLjg4NCA3LjI4OC02MC43NiAwMTQuMDI5IDcuMDAxIi8+PHBhdGggZD0iTTE3IDIxaC4wMSIvPjxwYXRoIGQ9Ik03IDNoLjAxIi8+PHBhdGggZD0iTTcuOTk3IDguODkxYTExLjg4NSA3LjI4OC02MC43NTYgMDExMS45NzcgOC4xMDciLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48L3N2Zz4=" alt="NebulaOS applications icon">
+
+            <div>
+                <h2>Nebula apps</h2>
+                <p>
+                    Small applications built specifically for the
+                    NebulaOS ecosystem.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="main app-showcase-section">
+
+    <h1>
+        Made for making things
+    </h1>
+
+    <p>
+        NebulaOS comes with a growing collection of small applications
+        designed to fit naturally into the desktop.
+    </p>
+
+    <div class="app-showcase">
+
+        <div class="app-card">
+            <div class="app-image">
+                <img
+                    src="screenshots/nebulapad.png"
+                    alt="NebulaPad screenshot"
+                >
+            </div>
+
+            <div class="app-info">
+                <h2>NebulaPad</h2>
+
+                <p>
+                    A minimal text editor designed to help you get your
+                    work done.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="app-card">
+            <div class="app-image">
+                <img
+                    src="screenshots/nebulastickies.png"
+                    alt="NebulaStickies screenshot"
+                >
+            </div>
+
+            <div class="app-info">
+                <h2>NebulaStickies</h2>
+
+                <p>
+                    Simple sticky notes for keeping ideas close while
+                    you work.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="main">
+
+    <h1>
+        Everything in one place
+    </h1>
+
+    <p>
+        A desktop built around the tools you actually use.
+    </p>
+
+    <div class="desktop-composition">
+
+        <img
+            class="desktop-main"
+            src="screenshots/nebulaos-desktop.png"
+            alt="NebulaOS desktop"
+        >
+
+        <img
+            class="desktop-app desktop-app-one"
+            src="screenshots/nebulapad.png"
+            alt="NebulaPad running on NebulaOS"
+        >
+
+        <img
+            class="desktop-app desktop-app-two"
+            src="screenshots/nebulastickies.png"
+            alt="Stickies running on NebulaOS"
+        >
+
+    </div>
+
+</section>
+
+        <!-- About -->
+        <section id="about" class="main">
+            <h1>
+                So, what is NebulaOS?
+            </h1>
+
+            <p>
+                It's a Linux distribution built around the idea of making a
+                good desktop for people who like making things.
+            </p>
+
+            <p>
+                NebulaOS isn't trying to reinvent Linux from scratch. It builds
+                on existing open-source software and adds its own ideas,
+                applications, and design.
+            </p>
+
+            <p>
+                It's still very much a work in progress. Things will break.
+                Features will change. Some ideas probably won't survive.
+            </p>
+        </section>
+
+
+        <!-- Development -->
+        <section class="main">
+            <h1>
+                Still being built.
+            </h1>
+
+            <p>
+                NebulaOS is currently in development. The first releases are
+                focused on getting the basics right before adding more features.
+            </p>
+
+            <a href="https://github.com/NebulaOS-Dev">
+                <button>View Development</button>
+            </a>
+        </section>
+
+
+        <!-- Download -->
+        <section id="download" class="main">
+            <h1>
+                What are you waiting for?
+            </h1>
+
+            <p>
+                NebulaOS isn't ready for a public release just yet.
+            </p>
+
+            <p>
+                Check the GitHub repository for development builds, source code,
+                and future releases.
+            </p>
+
+            <a href="https://github.com/NebulaOS-Dev">
+                <button>Check out the GitHub</button>
+            </a>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="brand">
+            <img src="NebulaNLogo.png" alt="NebulaOS logo">
+            <h2>NebulaOS</h2>
+        </div>
+
+        <p>
+            An open-source Linux distribution for creators.
+        </p>
+
+        <p>
+            Made by alphacodes26 or NebulaDev on GitHub. Licensed under the MIT License.
+        </p>
+    </footer>
+
+</body>
+</html>
